@@ -79,7 +79,7 @@ Resources:
       Role:
         Fn::GetAtt: [ LambdaRole , "Arn" ]
       # 2024-08-01: updated from nodejs12.x in case it matters
-      Runtime: nodejs18.x
+      Runtime: nodejs20.x
       Timeout: 60
   Unit4MetricsReservations:
     Type: AWS::DynamoDB::Table

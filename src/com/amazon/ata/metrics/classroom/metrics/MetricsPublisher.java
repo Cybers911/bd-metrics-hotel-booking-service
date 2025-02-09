@@ -10,6 +10,7 @@ import javax.inject.Inject;
 
 /**
  * Contains operations for publishing metrics.
+ * Class to store the metrics in CloudWatch.
  */
 public class MetricsPublisher {
 
